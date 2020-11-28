@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <title>The Best 10 Website Builders | Manage</title>
+</head>
+
+<body>
+
+  <header>
+    <nav id="navbar">
+      <div class="container">
+        <a href="index.html" class="logo">
+          <img src="./assets/images/the-best-10-website-builders-logo.svg" alt="Logo">
+        </a>
+        <ul>
+          <li><a class="active" href="index.html">Home</a></li>
+          <li><a href="#">Comparison</i></a></li>
+          <li class="nested">Charts <i class="fas fa-angle-down"></i>
+            <ul>
+              <li><a href="#">Best Website Builders 2020</a></li>
+            </ul>
+          </li>
+          <li class="nested">Reviews <i class="fas fa-angle-down"></i>
+            <ul>
+              <li><a href="#">Wix</a></li>
+              <li><a href="#">Network Solutions</a></li>
+              <li><a href="#">Squarespace</a></li>
+              <li><a href="#">Site123</a></li>
+              <li><a href="#">Web</a></li>
+              <li><a href="#">Wordpress.com</a></li>
+            </ul>
+          </li>
+          <li class="nested">How To's <i class="fas fa-angle-down"></i>
+            <ul>
+              <li><a href="#">How To Make Money With Your Website</a></li>
+              <li><a href="#">How To Boost Your Website Traffic Using Social Media</a></li>
+              <li><a href="#">How to Create the Best 404 Page Ever</a></li>
+              <li><a href="#">How To Reduce Your Cart Abandonment Rates</a></li>
+              <li><a href="#">How to Choose the Percect Template For Your Website?</a></li>
+            </ul>
+          </li>
+          <li><a href="manage.html">Manage</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section id="manage">
+      <div class="container py-3" id="parent">
+        <h1 class="text-center">CREATE NEW LISTING</h1>
+        <form id="manage-form">
+          <div class="form-group">
+            <label for="logo">Logo:</label>
+            <input type="file" id="logo" accept="image/png, image/jpeg">
+          </div>
+          <div class="form-group">
+            <label>Promo's: </label>
+            <input type="text" id="promo1" placeholder="Promo One">
+            <input type="text" id="promo2" placeholder="Promo Two">
+            <input type="text" id="promo3" placeholder="Promo Three">
+          </div>
+
+          <div class="form-group">
+            <label for="rating">Rating:</label>
+            <input type="number" step="0.01" max="10" id="rating" placeholder="0.0">
+            <select id="remark">
+              <option value="Outstanding">Outstanding</option>
+              <option value="Excellent">Excellent</option>
+              <option value="Very good">Very good</option>
+            </select>
+            <!-- <input type="text" id="remark" placeholder="Remarks"> -->
+          </div>
+          <button type="submit" class="btn btn-block">Submit</button>
+        </form>
+      </div>
+    </section>
+
+    <section id="list">
+      <div class="container">
+        <div class="list-content" id="list-record">
+
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      <div class="col-1">
+        <img src="./assets/images/footer-logo.svg" alt="">
+        <p>By using our content, products & services you agree to our Terms of Service and Privacy Policy.
+          The information in this site is based on different reviews made by third parties, as well as own view and
+          sources. Reproduction in whole or in part in any form or medium without express written permission of
+          Affiliate Marketing Corp is prohibited..</p>
+      </div>
+      <div class="col-2">
+        <div class="row1">
+          <ul>
+            <li><a href="#">Comparison</a></li>
+            <li><a href="#">Charts</a></li>
+            <li><a href="#">Reviews</a></li>
+            <li><a href="#">How To's</a></li>
+          </ul>
+        </div>
+        <div class="row2">
+          <ul>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">FAQs</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="./assets/js/app.js"></script>
+</body>
+
+</html>
