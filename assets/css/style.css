@@ -129,10 +129,15 @@ img {
   height: 45px;
 }
 
-#navbar .container {
+#navbar .menu-wrap {
   display: flex;
   align-items: center;
   justify-content: space-between;
+}
+
+#navbar .menu-wrap input[type='checkbox'],
+#navbar .menu-wrap .hamburger {
+  display: none;
 }
 
 #navbar ul {
@@ -475,6 +480,11 @@ footer .col-2 ul li a:hover {
 }
 
 /* MANAGE PAGE */
+
+#manage .container {
+  padding-top: 30px;
+}
+
 /* Contact Form */
 #manage-form .form-group{
   margin-bottom: 20px;
@@ -521,3 +531,4 @@ footer .col-2 ul li a:hover {
 #front-page .list-content #delete-btn {
   display: none;
 }
+
